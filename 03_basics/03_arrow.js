@@ -2,6 +2,7 @@ const user = {
     username: "hitesh",
     price: 999,
 
+    // here this refer to current context i.e user
     welcomeMessage: function() {
         console.log(`${this.username} , welcome to website`);
         console.log(this);
@@ -17,21 +18,23 @@ const user = {
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username); //undefined
 // }
 
 // chai()
 
-// const chai = function () {
+//  const chai = function () {
 //     let username = "hitesh"
-//     console.log(this.username);
+// console.log(this);
+//     console.log(this.username); //undefined
 // }
 
 const chai =  () => {
     let username = "hitesh"
     console.log(this);
+    console.log(this.username); // undefined
 }
-
+// same output for this in console  for both fun
 
 // chai()
 
@@ -52,3 +55,5 @@ console.log(addTwo(3, 4))
 // const myArray = [2, 5, 3, 7, 8]
 
 // myArray.forEach()
+
+//for arrow function current context is window or node -{}

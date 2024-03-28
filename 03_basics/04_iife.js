@@ -7,6 +7,9 @@
     console.log(`DB CONNECTED`);
 })();
 
+// ; to tell kha iife khtm hua he
+
+// arrow func
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
 } )('hitesh')

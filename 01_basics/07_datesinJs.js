@@ -8,7 +8,7 @@ let myDate = new Date()
 
 // let myCreatedDate = new Date(2023, 0, 23) month 0 se start
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14")
+// let myCreatedDate = new Date("2023-01-14") here month start from 1
 let myCreatedDate = new Date("01-14-2023")
 // console.log(myCreatedDate.toLocaleString());
 

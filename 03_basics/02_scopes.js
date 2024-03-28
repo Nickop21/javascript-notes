@@ -52,6 +52,7 @@ function addone(num){
 
 // hoisting
 // we cant acces phele in this
+//here we store funtion in variable 
 addTwo(5)
 const addTwo = function(num){
     return num + 2

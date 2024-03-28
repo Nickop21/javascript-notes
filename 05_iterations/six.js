@@ -5,16 +5,18 @@
 //     //console.log(item);
 //     return item
 // } )
-
+// for each not return any val
 // we can't hold itratable value(for each)
 // console.log(values);
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
+// filter retune val
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
 
+
+// to depect filter using foreach
 // const newNums = []
 
 // myNums.forEach( (num) => {
