@@ -18,7 +18,7 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-//if hm key ko string me defibe kr dia to acces krna ka yk tarika he ["email"]
+//if hm key ko string me define kr dia to acces krna ka yk tarika he ["email"] eg :"fullname"
 
 // console.log(JsUser.email)
 // console.log(JsUser["email"]) behind the sece string ki trha track ho rha he

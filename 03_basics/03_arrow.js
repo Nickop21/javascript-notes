@@ -56,4 +56,4 @@ console.log(addTwo(3, 4))
 
 // myArray.forEach()
 
-//for arrow function current context is window or node -{}
+//for arrow function or u can say all func current context is window or node -{}

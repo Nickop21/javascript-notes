@@ -39,5 +39,5 @@ console.log("C ", myArr);
 console.log(myn2);
 
 //difference b/w slice and splice
-// splice include last index to but main diffence is its remove the index from the original array but not in case of slice
+// splice include last index to but main diffence is its remove the index element from the original array but not in case of slice
 // 
